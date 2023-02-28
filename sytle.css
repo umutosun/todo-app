@@ -1,0 +1,47 @@
+body {
+  margin-top: 100px;
+  margin-left: 500px;
+}
+body .textinput {
+  width: 300px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid green;
+}
+body .addTask {
+  padding: 5px;
+  border-radius: 8px;
+  border: solid 1px rgb(110, 42, 165);
+  background-color: rgb(62, 62, 177);
+  color: #fff;
+  cursor: pointer;
+}
+body .todoItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: -35px;
+}
+body .completed .todotext {
+  text-decoration: line-through;
+  border: solid 1px green;
+  background-color: rgb(62, 98, 177);
+  border-radius: 8px;
+  padding: 3px;
+}
+body .completebttn {
+  border: solid 1px rgb(110, 42, 165);
+  background-color: rgb(62, 177, 81);
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 8px;
+}
+body .deletebttn {
+  border: solid 1px rgb(110, 42, 165);
+  background-color: rgb(192, 39, 39);
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 8px;
+}/*# sourceMappingURL=sytle.css.map */
